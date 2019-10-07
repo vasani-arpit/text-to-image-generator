@@ -1,0 +1,29 @@
+{
+  "name": "text-to-image-generator",
+  "version": "0.0.1",
+  "description": "A node library to create beautiful images from text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasani-arpit/text-to-image-generator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "text-to-image"
+  ],
+  "author": "Arpit Vasani",
+  "license": "ISC",
+  "bin": {
+    "text-to-image": "./cli.js"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/vasani-arpit/text-to-image-generator/issues"
+  },
+  "homepage": "https://github.com/vasani-arpit/text-to-image-generator#readme"
+}
